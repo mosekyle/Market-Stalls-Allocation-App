@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nehmtech University</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/10b510c983.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<!-- Header -->
+<section class="header-pages">
+<nav>
+<img src="images/logo.png">
+<div class="nav-links" id="navLinks">
+    <i class="fas fa-times" onclick="hideMenu()"></i>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+    </div>
+    
+
+    </div>
+</div>
+<i class="fas fa-bars" onclick="showMenu()"></i>
+</nav>
+</section>
+
+<!------ Courses------>
+
+<section class="courses">
+    <h1>Courses we offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Ullam non expedita veritatis <br> suscipit  qui nesciunt  accusantium dicta animi <br> dolore labore.</p>
+<div class="row">
+    <div class="course-colum">
+        <h3> Web Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci libero pariatur, cumque, velit ab exercitationem nobis veniam illo sapiente maxime, aliquid corrupti aut aperiam tempore. Commodi facere nihil laudantium.</p>
+   </div>
+   <div class="course-colum">
+    <h3>Software Development</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci libero pariatur, cumque, velit ab exercitationem nobis veniam illo sapiente maxime, aliquid corrupti aut aperiam tempore. Commodi facere nihil laudantium.</p>
+</div>
+<div class="course-colum">
+    <h3>Machine Learning</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci libero pariatur, cumque, velit ab exercitationem nobis veniam illo sapiente maxime, aliquid corrupti aut aperiam tempore. Commodi facere nihil laudantium.</p>
+</div>
+</section>
+
+
+<div class="container">
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+    </div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium error  asperiores veniam <br> laboriosam atque eos, mollitia ut debitis ea?</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram" style="color: red;"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    
+    <div>
+        <p>@2022.All Rights reserved | Designed By | Nehmtech_Ke</p>
+    </div>
+        
+    
+    
+    </div>
+    
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+    </body>
+    </html>

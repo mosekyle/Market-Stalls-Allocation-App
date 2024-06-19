@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* -------Header----- */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0,0, 0.7)), url(images/banner.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header img{
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    font-family: 'Merriweather', serif;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-links ul li a:hover{
+    background-color: cyan;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.text-box{
+    width: 90%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 40px;
+    color: rgb(162, 206, 226);
+}
+.text-box p{
+    margin: 10px 0px 40px;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(122, 226, 169);
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:hover{
+border: 1px solid orange;
+background-color: saddlebrown;
+transition: 0.5s;
+}
+
+nav .fas{
+    display: none;
+}
+
+/* -----Courses----- */
+
+.courses{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-colum{
+    flex-basis: 31%;
+    background-color: rgb(245, 216, 230);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+
+}
+
+.course-colum:hover{
+    box-shadow: 0 0 20px 0px red;
+}
+.course-colum p{
+    text-align: left;
+}
+
+/* -----Mode of training----- */
+
+.training{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+  
+}
+.platforms{
+    flex-basis: 25%;
+    border-radius: 10px;
+    margin-bottom: 32px;
+    position: relative;
+    overflow: hidden;
+  
+    
+}
+
+.platforms img{
+    width: 100%;
+    display: block;
+
+}
+
+.layer{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.layer:hover{
+    background-color: rgba(231, 85, 85, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 00.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilities-colum{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-colum img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities{
+    padding: 0;
+}
+
+.facilities-colum h2{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonial-colum{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #e2c0c0;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-colum img{
+    height: 40px;
+    margin: 5%;
+    border-radius: 50%;
+
+}
+.testimonial-colum p{
+    padding: 0%;
+}
+.testimonial-colum h3{
+margin-top: 15px;
+text-align: left;
+}
+
+.testimonial-colum .fas{
+    color: red;
+}
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient( rgba(0,0,0, 0.5),rgba(0,0,0, 0.5) ), url(images/banner.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(235, 227, 227);
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer .fab{
+    padding: 10px;
+    color: royalblue;
+}
+.header-pages{
+    min-height: 20vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(206, 49, 49, 0.7), rgba(36, 70, 184, 0.7));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header-pages img{
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #cdd4d6;
+    padding: 20px;
+    
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+
+/* -------Media Querry----- */
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .text-box p{
+        font-size: 13px;
+    }
+    .header img{
+        height: 60px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+   .nav-links ul li{
+       display: block;
+   }
+.nav-links{
+    position: absolute;
+    background-color: hotpink;
+    height: 100vh;
+    width: 150px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav .fas{
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.row{
+    flex-direction: column;
+}
+}
