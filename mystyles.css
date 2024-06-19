@@ -9,7 +9,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0,0, 0.7)), url(images/banner.jfif);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0,0, 0.7)), url(images/backgroundimage.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -46,8 +46,8 @@ nav{
 
 }
 .nav-links ul li a:hover{
-    background-color: cyan;
-    border: 1px solid red;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid rgb(105, 3, 3);
     border-radius: 10px;
     padding: 10px;
 }
@@ -63,7 +63,7 @@ nav{
 
 .text-box h1{
     font-size: 40px;
-    color: rgb(162, 206, 226);
+    color: rgb(255, 255, 255);
 }
 .text-box p{
     margin: 10px 0px 40px;
@@ -91,7 +91,7 @@ nav .fas{
     display: none;
 }
 
-/* -----Courses----- */
+/* -----roles----- */
 
 .courses{
     width: 80%;
@@ -105,7 +105,7 @@ h1{
 }
 
 p{
-    color: #777;
+    color: #222121;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -120,7 +120,7 @@ p{
 
 .course-colum{
     flex-basis: 31%;
-    background-color: rgb(245, 216, 230);
+    background-color: #f8f8f8;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -141,7 +141,7 @@ h3{
     text-align: left;
 }
 
-/* -----Mode of training----- */
+/* -----payment----- */
 
 .training{
     width: 80%;
@@ -175,7 +175,7 @@ h3{
     left: 0;
 }
 .layer:hover{
-    background-color: rgba(231, 85, 85, 0.7);
+    background-color: rgba(65, 3, 3, 0.7);
 }
 
 .layer h3{
@@ -236,7 +236,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #e2c0c0;
+    background: hwb(0 70% 9%);
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -263,7 +263,7 @@ text-align: left;
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient( rgba(0,0,0, 0.5),rgba(0,0,0, 0.5) ), url(images/banner.jfif);
+    background-image: linear-gradient( rgba(0,0,0, 0.5),rgba(0,0,0, 0.5) ), url(images/backgroundimage.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -280,7 +280,7 @@ text-align: left;
     width: 100%;
     text-align: center;
     padding: 30px 0;
-    background-color: rgb(235, 227, 227);
+    background-color: hsl(60, 6%, 78%);
 }
 
 .footer h4{
@@ -296,7 +296,7 @@ text-align: left;
 .header-pages{
     min-height: 20vh;
     width: 100%;
-    background-image: linear-gradient( rgba(206, 49, 49, 0.7), rgba(36, 70, 184, 0.7));
+    background-image: linear-gradient( rgba(3, 50, 110, 0.87), rgba(36, 70, 184, 0.7));
     background-size: cover;
     background-position: center;
     position: relative;
